@@ -13,7 +13,6 @@ public class EmprestimoTest {
         Emprestimo emprestimo = new Emprestimo(livro, usuario, dataRetirada, dataDevolucao);
         assertNotNull(emprestimo);
     }
-
     @Test
     public void testEmprestimoComLivroIndisponivel() {
         Date dataRetirada = new Date();
@@ -25,8 +24,7 @@ public class EmprestimoTest {
             new Emprestimo(livro, usuario, dataRetirada, dataDevolucao);
         });
     }
-
-    @Test
+  @Test
     public void testToString() {
         Date dataRetirada = new Date();
         Date dataDevolucao = new Date();
