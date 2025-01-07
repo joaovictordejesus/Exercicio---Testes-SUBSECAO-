@@ -1,4 +1,4 @@
-//João Vicotr de Jesus Augusto
+//João Victor de Jesus Augusto
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
